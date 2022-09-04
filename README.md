@@ -11,6 +11,7 @@ For tissue images at first we run PCA algorithm to reducing dimension of our dat
 For clustering tissue images we used VGG16, VGG19 and ResNet50 pretrained models. By removing top layers, feature maps are used for clustering images.
 For clustering we used GMM and KMeans.
 Here are results of VGG19 clustering results:
+
 ![image](https://user-images.githubusercontent.com/63104907/188331292-5b9c5dfa-0a3a-4fd4-b7b0-74bfa0c2db8d.png)
 ![image](https://user-images.githubusercontent.com/63104907/188331304-db0eca2d-ea44-4573-afdc-60250bb4a692.png)
 ![image](https://user-images.githubusercontent.com/63104907/188331312-cf82de07-177a-4687-9d8c-83dc3c12fac0.png)
